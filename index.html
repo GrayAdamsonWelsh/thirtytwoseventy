@@ -20,10 +20,55 @@
             <fieldset>
                 <legend>Terminal</legend>
             </fieldset>
+            <form action="/action_page.php">
+                Field Name: <input type="text" name="fieldname" id="fieldname">
+                <br>
+                Location : 
+                <br>
+                Field type: 
+                <input type="radio" id="label" name="type" value="label">
+                <label for="label">Label</label>
+                <input type="radio" id="text" name="type" value="text">
+                <label for="css">Text</label>
+                <input type="radio" id="numeric" name="type" value="numeric">
+                <label for="css">Numeric</label>
+                <br>
+                <label for="fieldSize">Size</label>
+                <input type="number" id="fieldSize">
+                <label for="decimalPlaces">Decimal Places</label>
+                <input type="number" id="decimalPlaces">
+                <label for="repeats">Repeats</label>
+                <input type="number" id="repeats">
+                <br>
+                Location
+                <label for="xPos">x : </label>
+                <input type="number" id="xPos">
+                <label for="yPos">y : </label>
+                <input type="number" id="yPos">
+                <br>
+                Colour: 
+                  <input type="radio" id="red" name="color" value="red">
+                  <label for="red">Red</label>
+                  <input type="radio" id="green" name="color" value="green">
+                  <label for="green">Green</label>
+                  <input type="radio" id="yellow" name="color" value="yellow">
+                  <label for="yellow">Yellow</label>
+                  <input type="radio" id="blue" name="color" value="blue">
+                  <label for="blue">Blue</label>
+                  <br>
+                  <label for="defaultValue">Default Value :  </label>
+                  <input type="text" id="defaultValue">
+                  <br>
+                  <input type="button" value="Save">
+              </form>
         </div>
-        <div></div>
+        <!-- holds a HTML copy of the terminal-->
+        <div>
+            <fieldset>
+                <legend>HTML</legend>                
+            </fieldset>
+        </div>
     </div>
-   <!-- holds a copy of the desired 3270 terminal-->
    <p>help</p>
 </body>
 </html>
