@@ -1,7 +1,4 @@
-fieldset {
-    width: 50%;
-    height: 300px;
-    border-color: black;
-    border-style: solid ;
-    border-width: 1px;
+table {
+    height: 400px;
+    width: 500px;
 }
